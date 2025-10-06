@@ -54,7 +54,7 @@ public class BasicFPCC : MonoBehaviour
     [Tooltip("larger values for less filtering, more responsiveness")]
     public float mouseSnappiness = 20f;
     public bool invertLookY = false;
-    public float clampLookY = 90f;
+    public float clampLookY = 60f;
 
     [Header("Move Settings")]
     public float crouchSpeed = 3f;
