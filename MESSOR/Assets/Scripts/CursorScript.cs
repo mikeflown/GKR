@@ -4,7 +4,7 @@ public class CursorToggle : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse2))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             ToggleCursor();
         }
