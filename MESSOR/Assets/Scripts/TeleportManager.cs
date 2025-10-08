@@ -3,7 +3,7 @@ using DialogueEditor;
 
 public class TeleportManager : MonoBehaviour
 {
-    public Transform teleport; 
+    public Transform teleport;
 
     private void OnTriggerEnter(Collider other)
     {
